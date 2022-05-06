@@ -1,0 +1,23 @@
+
+.navbar {
+      background-color: black;
+      width: 100%;
+}
+
+.nav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+}
+.nav-item {
+      padding: 20px 10px;
+      border-bottom: 1px solid white;
+      text-align: center;
+}
+.nav-item:hover {
+      background-color: gray;
+}
+.nav-link {
+      text-decoration: none;
+      color: white;
+}

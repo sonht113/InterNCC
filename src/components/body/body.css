@@ -1,0 +1,45 @@
+
+.header {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+}
+
+.header-img {
+      width: 200px;
+      object-fit: cover;
+}
+img {
+      width: 100%;
+}
+
+.banner {
+      text-align: center;
+      width: 80%;
+      background-color: #EFEFEF;
+      margin: 0 auto;
+      margin-top: 1rem;
+      padding: 1rem 2rem;
+}
+
+.content {
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+}
+
+.content > div {
+      width: calc(100% / 3);
+}
+
+.box-img {
+      width: 100px;
+      float: left;
+      object-fit: cover;
+      margin-right: 1rem;
+}
+
+.footer {
+      position: relative;
+      border-top: 1px solid gray;
+}
